@@ -29,7 +29,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat('/login samsul');
+	bot.chat('Hai aku bot');
 });
 
 bot.on('time', function(time) {
