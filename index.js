@@ -29,7 +29,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat('Hai Aku orang');
+	bot.chat("hello");
 });
 
 bot.on('time', function(time) {
@@ -71,4 +71,3 @@ bot.on('spawn',function() {
 bot.on('death',function() {
     bot.emit("respawn")
 });
-
